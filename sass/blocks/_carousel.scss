@@ -1,0 +1,90 @@
+.carousel {
+    padding: 81px 0;
+    &__inner {
+        position: relative;
+        width: 750px;
+        margin: 0 auto;
+
+    }
+
+    // .carousel-indicators {
+    //     li {
+    //         background-color: red;
+    //     }
+    // }
+/*     .slick-prev {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: -66px;
+        border: none;
+        background-color: #fff;
+        img {
+            width: 31px;
+            height: 50px;
+        }
+    }
+
+    .slick-next {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: -70px;
+        border: none;
+        background-color: #fff;
+        img {
+            width: 30px;
+            height: 50px;
+        }
+    } */
+
+  /*   [data-controls=prev] {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: -66px;
+        border: none;
+        background-color: #fff;
+        img {
+            width: 31px;
+            height: 50px;
+        }
+    } */
+
+
+    .prev {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: -66px;
+        border: none;
+        background-color: #fff;
+        img {
+            width: 31px;
+            height: 50px;
+        }
+    }
+
+    .next {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: -70px;
+        border: none;
+        background-color: #fff;
+        img {
+            width: 30px;
+            height: 50px;
+        }
+    }
+
+    .tns-item {
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+
+
+
+}
